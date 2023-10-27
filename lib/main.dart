@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:uts_pak_sofyan/pages/home_page.dart';
+import 'package:uts_pak_sofyan/Widgets/main_feature_card.dart';
+import 'package:uts_pak_sofyan/Widgets/top_bar.dart';
+import 'package:uts_pak_sofyan/Widgets/user_card.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +20,18 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: Scaffold(
+        backgroundColor: Color(0xffF1F1F1),
+        body: Column(
+          children: [
+            TopBar(),
+            SizedBox(height: 16),
+            UserCard(),
+            SizedBox(height: 16),
+            MainFeatureCard(),
+          ],
+        ),
+      ),
     );
   }
 }
