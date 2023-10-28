@@ -5,6 +5,7 @@ import 'package:uts_pak_sofyan/Widgets/main_feature_card.dart';
 import 'package:uts_pak_sofyan/Widgets/top_bar.dart';
 import 'package:uts_pak_sofyan/Widgets/user_card.dart';
 import 'package:uts_pak_sofyan/config/app_asset.dart';
+import 'package:uts_pak_sofyan/pages/history.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,12 +22,7 @@ class _MyAppState extends State<MyApp> {
   int _currentIndex = 0;
   List<Widget> body = [
     MainHomePage(),
-    Center(
-      child: Image.asset(
-        'assets/images/app-development1.png',
-        width: 200,
-      ),
-    ),
+    History(),
     Center(
       child: Image.asset(
         'assets/images/app-development2.png',

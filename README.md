@@ -1,10 +1,12 @@
-# uts_pak_sofyan
+# Slicing LinkAja
 
-A new Flutter project.
+A new Flutter UTS Project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Actually, this isn't my assignment, because my lecturer made the UTS questions easier 🥲, so I just messed up and did this.🤡
+
+![screenshot](assets/images/uts-pak-sofyan.gif)
 
 A few resources to get you started if this is your first Flutter project:
 
