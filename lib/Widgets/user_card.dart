@@ -6,12 +6,11 @@ class UserCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 116,
       margin: EdgeInsets.fromLTRB(24, 0, 24, 0),
       padding: EdgeInsets.all(16),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(8),
-        color: Colors.red,
+        color: Color(0xffE82529),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -24,7 +23,7 @@ class UserCard extends StatelessWidget {
               fontWeight: FontWeight.w500,
             ),
           ),
-          SizedBox(height: 8),
+          SizedBox(height: 12),
           Row(
             children: [
               SmallCard(
